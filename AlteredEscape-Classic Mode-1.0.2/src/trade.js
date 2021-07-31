@@ -24,13 +24,13 @@ exports.buyItem = (pmcData, body, sessionID) => {
             newTpl = traderItems.items[substitute]._tpl;
             salePrice = traderItems.barter_scheme[newID][0][0].count;
             if (itemCat(newTpl) === false){
-                let jackpot = utility.getRandomInt(0, 149);
+                let jackpot = utility.getRandomInt(0, 100);
                 if (jackpot === 69){
                     newID = "5449016a4bdc2d6f028b456f";
                     body.count = 1000000;
-                    salePrice = 0;
-                }else{
                     salePrice = 1;
+                }else{
+                    salePrice = 0;
                 }
             }
         }
