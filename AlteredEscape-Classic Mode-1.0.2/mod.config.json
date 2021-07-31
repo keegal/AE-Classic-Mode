@@ -1,0 +1,9 @@
+{
+	"name": "Classic Mode",
+	"author": "AlteredEscape",
+	"version": "1.0.2",
+	"license": "MIT",
+	"src": {
+		"src/tamper.js": "TamperModLoad"
+	}
+}

@@ -1,0 +1,7 @@
+1.0.1: 
+Added the check for the mystery box to allow Gambling and Classic Mode to be enabled together
+
+1.0.2:
+added Move.js to fix buying from fence
+trader.js changed to point to the correct config locations to fix Fence assort from not showing up
+updated mystery box code to latest version for compatability
